@@ -1,0 +1,18 @@
+html, body{
+font-family:Arial;
+height:100%;
+width:100%;
+margin:0px;
+padding: 0px;
+}
+
+nav ul{
+list-style-type: none;
+padding: 0px;
+margin-bottom:0em;
+}
+
+footer {
+width:100%;
+clear:both;
+}

@@ -1,0 +1,75 @@
+@font-face {  
+  font-family: brush-script;  
+  src: url(BRUSHSCI.TTF ) format("truetype");  
+}  
+ 
+
+body{
+background: url(Patterns-09-R.jpg);
+font-family: brush-script;
+}
+
+header h1{
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  text-align: center;
+  font-size: 250%;
+  text-shadow: red 2px 2px 2px;
+
+}
+
+#container{
+width: 90%;
+height:90%
+margin:5%;
+position:relative;
+top:5%;
+left:5%;
+border-radius: 50px;
+background-color:rgba(255,255,255,0.8);
+}
+
+nav {
+float: left;
+background-color: gray;
+//opacity:0.8;
+background-color:rgba(155,155,155,0.5);
+width:10%;
+border-radius: 30px;
+font-family:arial;
+left:1em;
+margin:2%;
+padding:1%;
+}
+
+nav input[type="search"]{
+width:80%;
+border-radius: 30px;
+position:relative;
+left:1em;
+font-size: 70%;
+border: 1px solid black;
+}
+
+nav ul{
+position:relative;
+}
+
+nav li{
+margin:1em;
+}
+
+nav a{
+	color: black;
+	opacity:1;
+}
+
+#main{
+float:right;
+width:80%;
+font-size:140%;
+}
+
+footer {
+text-align:center;
+}
